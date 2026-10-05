@@ -1,0 +1,14 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Xcode user-specific state and build products
+**/xcuserdata/
+**/DerivedData/
+build/
+*.xcuserstate
+
+# Local secrets and chat data
+.env
+*.env
+conversations.json

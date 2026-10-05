@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6380B2003072D7CE00EBD2C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B1FF3072D7CE00EBD2C0 /* AppDelegate.m */; };
+		6380B2023072D7CE00EBD2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B2013072D7CE00EBD2C0 /* main.m */; };
+		6380B2043072D7CE00EBD2C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6380B2033072D7CE00EBD2C0 /* Images.xcassets */; };
+		6380B2073072D7CE00EBD2C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6380B2053072D7CE00EBD2C0 /* MainMenu.xib */; };
+		6380B2133072D7CE00EBD2C0 /* GeminiMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B2123072D7CE00EBD2C0 /* GeminiMacTests.m */; };
+		6380B21D3073151300EBD2C0 /* AppDelegate+Chats.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B21C3073151300EBD2C0 /* AppDelegate+Chats.m */; };
+		6380B21F3073151800EBD2C0 /* AppDelegate+GeminiAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B21E3073151800EBD2C0 /* AppDelegate+GeminiAPI.m */; };
+		6380B2213073151E00EBD2C0 /* AppDelegate+Interface.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380B2203073151E00EBD2C0 /* AppDelegate+Interface.m */; };
+		6380B2243073178900EBD2C0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6380B2233073178900EBD2C0 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6380B20D3072D7CE00EBD2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6380B1F13072D7CE00EBD2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6380B1F83072D7CE00EBD2C0;
+			remoteInfo = GeminiMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6380B1F93072D7CE00EBD2C0 /* GeminiMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6380B1FD3072D7CE00EBD2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6380B1FE3072D7CE00EBD2C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6380B1FF3072D7CE00EBD2C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6380B2013072D7CE00EBD2C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6380B2033072D7CE00EBD2C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6380B2063072D7CE00EBD2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6380B20C3072D7CE00EBD2C0 /* GeminiMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeminiMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6380B2113072D7CE00EBD2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6380B2123072D7CE00EBD2C0 /* GeminiMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeminiMacTests.m; sourceTree = "<group>"; };
+		6380B21C3073151300EBD2C0 /* AppDelegate+Chats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Chats.m"; sourceTree = "<group>"; };
+		6380B21E3073151800EBD2C0 /* AppDelegate+GeminiAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+GeminiAPI.m"; sourceTree = "<group>"; };
+		6380B2203073151E00EBD2C0 /* AppDelegate+Interface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Interface.m"; sourceTree = "<group>"; };
+		6380B2223073154F00EBD2C0 /* AppDelegate+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Internal.h"; sourceTree = "<group>"; };
+		6380B2233073178900EBD2C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6380B1F63072D7CE00EBD2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6380B2243073178900EBD2C0 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6380B2093072D7CE00EBD2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6380B1F03072D7CE00EBD2C0 = {
+			isa = PBXGroup;
+			children = (
+				6380B2233073178900EBD2C0 /* Security.framework */,
+				6380B1FB3072D7CE00EBD2C0 /* GeminiMac */,
+				6380B20F3072D7CE00EBD2C0 /* GeminiMacTests */,
+				6380B1FA3072D7CE00EBD2C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6380B1FA3072D7CE00EBD2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6380B1F93072D7CE00EBD2C0 /* GeminiMac.app */,
+				6380B20C3072D7CE00EBD2C0 /* GeminiMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6380B1FB3072D7CE00EBD2C0 /* GeminiMac */ = {
+			isa = PBXGroup;
+			children = (
+				6380B1FE3072D7CE00EBD2C0 /* AppDelegate.h */,
+				6380B2223073154F00EBD2C0 /* AppDelegate+Internal.h */,
+				6380B21C3073151300EBD2C0 /* AppDelegate+Chats.m */,
+				6380B21E3073151800EBD2C0 /* AppDelegate+GeminiAPI.m */,
+				6380B2203073151E00EBD2C0 /* AppDelegate+Interface.m */,
+				6380B1FF3072D7CE00EBD2C0 /* AppDelegate.m */,
+				6380B2033072D7CE00EBD2C0 /* Images.xcassets */,
+				6380B2053072D7CE00EBD2C0 /* MainMenu.xib */,
+				6380B1FC3072D7CE00EBD2C0 /* Supporting Files */,
+			);
+			path = GeminiMac;
+			sourceTree = "<group>";
+		};
+		6380B1FC3072D7CE00EBD2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6380B1FD3072D7CE00EBD2C0 /* Info.plist */,
+				6380B2013072D7CE00EBD2C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6380B20F3072D7CE00EBD2C0 /* GeminiMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				6380B2123072D7CE00EBD2C0 /* GeminiMacTests.m */,
+				6380B2103072D7CE00EBD2C0 /* Supporting Files */,
+			);
+			path = GeminiMacTests;
+			sourceTree = "<group>";
+		};
+		6380B2103072D7CE00EBD2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6380B2113072D7CE00EBD2C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6380B1F83072D7CE00EBD2C0 /* GeminiMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6380B2163072D7CE00EBD2C0 /* Build configuration list for PBXNativeTarget "GeminiMac" */;
+			buildPhases = (
+				6380B1F53072D7CE00EBD2C0 /* Sources */,
+				6380B1F63072D7CE00EBD2C0 /* Frameworks */,
+				6380B1F73072D7CE00EBD2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeminiMac;
+			productName = GeminiMac;
+			productReference = 6380B1F93072D7CE00EBD2C0 /* GeminiMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6380B20B3072D7CE00EBD2C0 /* GeminiMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6380B2193072D7CE00EBD2C0 /* Build configuration list for PBXNativeTarget "GeminiMacTests" */;
+			buildPhases = (
+				6380B2083072D7CE00EBD2C0 /* Sources */,
+				6380B2093072D7CE00EBD2C0 /* Frameworks */,
+				6380B20A3072D7CE00EBD2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6380B20E3072D7CE00EBD2C0 /* PBXTargetDependency */,
+			);
+			name = GeminiMacTests;
+			productName = GeminiMacTests;
+			productReference = 6380B20C3072D7CE00EBD2C0 /* GeminiMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6380B1F13072D7CE00EBD2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PBL;
+				TargetAttributes = {
+					6380B1F83072D7CE00EBD2C0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6380B20B3072D7CE00EBD2C0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6380B1F83072D7CE00EBD2C0;
+					};
+				};
+			};
+			buildConfigurationList = 6380B1F43072D7CE00EBD2C0 /* Build configuration list for PBXProject "GeminiMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6380B1F03072D7CE00EBD2C0;
+			productRefGroup = 6380B1FA3072D7CE00EBD2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6380B1F83072D7CE00EBD2C0 /* GeminiMac */,
+				6380B20B3072D7CE00EBD2C0 /* GeminiMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6380B1F73072D7CE00EBD2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6380B2043072D7CE00EBD2C0 /* Images.xcassets in Resources */,
+				6380B2073072D7CE00EBD2C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6380B20A3072D7CE00EBD2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6380B1F53072D7CE00EBD2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6380B21F3073151800EBD2C0 /* AppDelegate+GeminiAPI.m in Sources */,
+				6380B2213073151E00EBD2C0 /* AppDelegate+Interface.m in Sources */,
+				6380B21D3073151300EBD2C0 /* AppDelegate+Chats.m in Sources */,
+				6380B2023072D7CE00EBD2C0 /* main.m in Sources */,
+				6380B2003072D7CE00EBD2C0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6380B2083072D7CE00EBD2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6380B2133072D7CE00EBD2C0 /* GeminiMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6380B20E3072D7CE00EBD2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6380B1F83072D7CE00EBD2C0 /* GeminiMac */;
+			targetProxy = 6380B20D3072D7CE00EBD2C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6380B2053072D7CE00EBD2C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6380B2063072D7CE00EBD2C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6380B2143072D7CE00EBD2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6380B2153072D7CE00EBD2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6380B2173072D7CE00EBD2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeminiMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6380B2183072D7CE00EBD2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeminiMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6380B21A3072D7CE00EBD2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeminiMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeminiMac.app/Contents/MacOS/GeminiMac";
+			};
+			name = Debug;
+		};
+		6380B21B3072D7CE00EBD2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeminiMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeminiMac.app/Contents/MacOS/GeminiMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6380B1F43072D7CE00EBD2C0 /* Build configuration list for PBXProject "GeminiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6380B2143072D7CE00EBD2C0 /* Debug */,
+				6380B2153072D7CE00EBD2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6380B2163072D7CE00EBD2C0 /* Build configuration list for PBXNativeTarget "GeminiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6380B2173072D7CE00EBD2C0 /* Debug */,
+				6380B2183072D7CE00EBD2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6380B2193072D7CE00EBD2C0 /* Build configuration list for PBXNativeTarget "GeminiMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6380B21A3072D7CE00EBD2C0 /* Debug */,
+				6380B21B3072D7CE00EBD2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6380B1F13072D7CE00EBD2C0 /* Project object */;
+}
