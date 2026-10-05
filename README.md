@@ -1,27 +1,95 @@
-# GeminiMac 1.0
+# Gemini OSX (v1.0)
 
-Минималистичный нативный клиент Google Gemini для macOS 10.9 Mavericks. Проект рассчитан на Xcode 6.2 и Objective-C.
+[English](#english) | [Русский](#russian)
 
-## Возможности
+---
 
-- Список моделей загружается из Gemini API при запуске.
-- Переписка отображается в виде чатов с сообщениями.
-- Чаты сохраняются локально; через контекстное меню чат можно переименовать, удалить или экспортировать в `.txt`.
-- API-ключ хранится в Связке ключей macOS.
+<a name="english"></a>
+## English
 
-## Сборка
+A native, lightweight client for the **Google Gemini API**, built for Macs running **OS X 10.9 Mavericks** and later.
 
-1. Откройте `GeminiMac.xcodeproj` в Xcode 6.2.
-2. Выберите схему `GeminiMac` и цель `My Mac`.
-3. Соберите и запустите приложение.
-4. При первом запросе введите Gemini API-ключ.
+Version 1.0 is written in **Objective-C** and uses native macOS frameworks. It brings a classic Messages-inspired chat interface to older Macs.
 
-Чаты хранятся в `~/Library/Application Support/GeminiMacClient/conversations.json`. Ключ API передаётся Gemini через HTTPS-заголовок `x-goog-api-key` и сохраняется в Keychain.
+### Key Features
 
-## Требования
+* **Native macOS Interface:** Chat sidebar, conversation view, model selector, and custom message bubbles.
+* **Dynamic Model List:** Fetches the models currently available to your API key from Google.
+* **Persistent Chat History:** Conversations are saved locally and restored when the app launches.
+* **Chat Management:** Right-click a chat to rename it, delete it, or export it as a `.txt` file.
+* **Automatic Draft Cleanup:** Empty chats are removed from history when you leave them or restart the app.
+* **Keychain Storage:** Your Gemini API key is stored in the macOS Keychain, not in the source code.
+* **No Third-Party Dependencies:** Built with native Apple frameworks, including AppKit, Foundation, and Security.
 
-- OS X 10.9 Mavericks или новее.
-- Xcode 6.2 или совместимая версия.
-- Gemini API-ключ и доступ к Google Gemini API.
+### Installation
 
-В репозитории нет включённого ключа API или истории переписки. Проект не содержит файла лицензии; права на исходный код остаются за автором.
+1. Open the **[Releases](https://github.com/guzhoffivan-hue/Gemini-OSX/releases)** page and download `GeminiOSX-v1.0.dmg`.
+2. Open the disk image and drag `GeminiOSX.app` to **Applications**.
+3. Launch the app.
+
+### Getting Started
+
+1. On the first request, enter your **Google Gemini API key**. The app saves it in the macOS Keychain.
+2. Choose an available model from the model selector.
+3. Start a new chat and send a message.
+
+### Network Notes
+
+The app connects directly to the Gemini API over HTTPS. It does not include a VPN or proxy. If the API is unavailable on your network, check the network or DNS configuration you use on your Mac.
+
+### Requirements
+
+* OS X 10.9 Mavericks or later
+* A Google Gemini API key
+* Network access to the Gemini API
+
+### Credits
+
+* **Developer:** [.PBL](https://github.com/guzhoffivan-hue)
+* **Interface inspiration:** The classic Messages app from the iOS 6 / OS X 10.8 era
+
+---
+
+<a name="russian"></a>
+## Русский
+
+Нативный легковесный клиент для **Google Gemini API**, созданный для Mac под управлением **OS X 10.9 Mavericks** и новее.
+
+Версия 1.0 написана на **Objective-C** с использованием системных фреймворков macOS. Интерфейс чата вдохновлён классическими приложениями «Сообщения» для старых устройств Apple.
+
+### Основные возможности
+
+* **Нативный интерфейс macOS:** Боковая панель чатов, окно переписки, выбор модели и собственные бабблы сообщений.
+* **Динамический список моделей:** Приложение загружает модели, доступные для вашего API-ключа.
+* **Сохранение переписки:** Чаты хранятся локально и восстанавливаются при запуске приложения.
+* **Управление чатами:** Нажмите правой кнопкой по чату, чтобы переименовать его, удалить или экспортировать в `.txt`.
+* **Удаление пустых черновиков:** Пустой чат удаляется из истории при переходе к другому чату или после перезапуска приложения.
+* **Хранение ключа в Keychain:** API-ключ сохраняется в Связке ключей macOS и не прописывается в исходном коде.
+* **Без сторонних библиотек:** Используются системные фреймворки Apple, включая AppKit, Foundation и Security.
+
+### Установка
+
+1. Откройте страницу **[Releases](https://github.com/guzhoffivan-hue/Gemini-OSX/releases)** и скачайте `GeminiOSX-v1.0.dmg`.
+2. Откройте образ и перетащите `GeminiOSX.app` в папку **Applications**.
+3. Запустите приложение.
+
+### Первый запуск
+
+1. При первом запросе введите **Google Gemini API Key**. Приложение сохранит его в Связке ключей macOS.
+2. Выберите доступную модель в списке.
+3. Создайте чат и отправьте сообщение.
+
+### Сеть
+
+Приложение напрямую подключается к Gemini API по HTTPS. Встроенного VPN или прокси нет. Если API недоступно через вашу сеть, проверьте настройки подключения или DNS на Mac.
+
+### Требования
+
+* OS X 10.9 Mavericks или новее
+* Google Gemini API-ключ
+* Доступ к Gemini API через сеть
+
+### Авторы и благодарности
+
+* **Разработка:** [.PBL](https://github.com/guzhoffivan-hue)
+* **Вдохновение для интерфейса:** классическое приложение «Сообщения» эпохи iOS 6 и OS X 10.8
